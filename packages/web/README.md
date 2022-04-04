@@ -51,6 +51,6 @@ This code will make the transaction, let the user sign it using algosigner and s
 You can also use `web.sendTransaction()` or `web.signTransaction()` in a react app.
 
 ### deployASA and deploySSC
-`deploySSC` has been renamed to `deployASA`.
+`deploySSC` has been renamed to `deployApp`.
 
 **Note:** We don't support checkpoints yet. Currently `deployASA`, `deploySSC` functions don't work. User should directly pass assetIndex, appIndex instead of asaName, appName.
