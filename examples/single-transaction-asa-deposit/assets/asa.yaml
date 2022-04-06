@@ -1,0 +1,15 @@
+CustomASAToken:
+  total: 1000000000000
+  decimals: 0
+  defaultFrozen: false
+  unitName: "CAT"
+  url: "url"
+  metadataHash: "12312312342141241244444411111133"
+  note: "Custom ASA Token"
+  noteb64: "Q3VzdG9tIEFTQSBUb2tlbgo="
+  # manager, reserve, freeze, clawback assigned to the master account
+  manager: "WWYNX3TKQYVEREVSW6QQP3SXSFOCE3SKUSEIVJ7YAGUPEACNI5UGI4DZCE"
+  reserve: "WWYNX3TKQYVEREVSW6QQP3SXSFOCE3SKUSEIVJ7YAGUPEACNI5UGI4DZCE"
+  freeze: "WWYNX3TKQYVEREVSW6QQP3SXSFOCE3SKUSEIVJ7YAGUPEACNI5UGI4DZCE"
+  clawback: "WWYNX3TKQYVEREVSW6QQP3SXSFOCE3SKUSEIVJ7YAGUPEACNI5UGI4DZCE"
+  optInAccNames: ["john"]
