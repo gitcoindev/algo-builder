@@ -5853,6 +5853,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"single-transaction-deposit@workspace:examples/single-transaction-asa-deposit":
+  version: 0.0.0-use.local
+  resolution: "single-transaction-deposit@workspace:examples/single-transaction-asa-deposit"
+  dependencies:
+    "@algo-builder/algob": "workspace:*"
+    "@algo-builder/runtime": "workspace:*"
+    "@algo-builder/web": "workspace:*"
+    algosdk: ^1.14.0
+    eslint: ^8.10.0
+    mocha: ^9.2.1
+    optionator: ^0.9.1
+  languageName: unknown
+  linkType: soft
+
 "sinon@npm:^13.0.1":
   version: 13.0.1
   resolution: "sinon@npm:13.0.1"
