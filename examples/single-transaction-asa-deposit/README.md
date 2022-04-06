@@ -39,5 +39,15 @@ yarn algob run scripts/query/john-balances.js
 yarn algob run scripts/query/smart-contract-balances.js
 ```
 
+### Implementation
+
+Currently the implementation is based on the develop branch of [Algo Builder](https://github.com/scale-it/algo-builder/) as the support for TEAL v6 is ongoing.
+After the next release this example should work correctly with master branch.
+
+Differences to the upstream can be observed at https://github.com/scale-it/algo-builder/compare/develop...gitcoindev:develop
+
+### Possible improvements
+
+The example could be enhanced by tests, after Algo Builder runtime package https://www.npmjs.com/package/@algo-builder/runtime TEAL v6 changes are supported by Algo Builder and merged to master. Also currently the smart contract automatically OPTs-in to the token. The logic on this could be smarter, but this is a minor thing. Apart from this, feel free to play with this example and improve it yourself!
 
 
