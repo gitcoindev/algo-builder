@@ -50,4 +50,5 @@ Differences to the upstream can be observed at https://github.com/scale-it/algo-
 
 The example could be enhanced by tests, after Algo Builder runtime package https://www.npmjs.com/package/@algo-builder/runtime TEAL v6 changes are supported by Algo Builder and merged to master. Also currently the smart contract automatically OPTs-in to the token. The logic on this could be smarter, but this is a minor thing. Apart from this, feel free to play with this example and improve it yourself!
 
-
+---
+Note: The example project is not audited and should not be used in a production environment.
